@@ -1,2 +1,4 @@
-# paper1-rcgo-1
-paper 1 rcgo
+Contains 
+VulneraScope-X Dataset file
+Python Script to generate dataset
+Python Script for algorithm implementation
