@@ -4,12 +4,6 @@ VulneraScope-X: end-to-end runnable pipeline
 Reconstructs the method described in the paper:
   min-max normalization -> Word2Vec + Node2Vec embeddings -> SMOTE ->
   RCGO feature selection -> Grid Search-tuned SVM, compared to NB/MLP/KNN.
-
-CAVEAT: This repository provides a conceptual implementation of the proposed 
-methodology and is intended for educational purposes. To ensure 
-fast execution, the Word2Vec/Node2Vec and RCGO components are lightweight 
-implementations, and experiments are run on a reconstructed 100-row dataset. 
-Consequently, the numerical results produced by this code are illustrative.
 """
 import warnings
 warnings.filterwarnings("ignore")
