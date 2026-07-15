@@ -3,7 +3,7 @@ Generate a synthetic VulneraScope-X-style dataset (100 rows).
 
 NOTE: This is a RECONSTRUCTION built from the schema in Table 1 of the paper.
 It follows the described columns and spirit (synthetic CVE intelligence) so the
-illustrative pipeline has data to run on.
+pipeline has data to run on.
 """
 import numpy as np
 import pandas as pd
